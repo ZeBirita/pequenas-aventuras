@@ -26,10 +26,10 @@
     <title data-i18n="title.gallery">Galeria | Pequenas aventuras</title>
   </head>
   <body>
-    <header class="header header--page">
+    <header class="header header--page header--gallery">
       <nav aria-label="Navegação principal" data-i18n-attr="aria-label" data-i18n="nav.aria">
         <div class="nav__header">
-          <a class="nav__wordmark" href="pequenas-aventuras.html"><span data-i18n="brand">Pequenas aventuras</span><img class="nav__brand-icon" src="assets/apple-touch-icon.png" alt="" aria-hidden="true" width="180" height="180" /></a>
+          <a class="nav__wordmark" href="index.html"><span data-i18n="nav.name">Iago Garcia</span><img class="nav__brand-icon" src="assets/apple-touch-icon.png" alt="" aria-hidden="true" width="180" height="180" /></a>
           <div class="nav__controls">
             <div class="language-switch" role="group" aria-label="Escolher idioma" data-i18n-attr="aria-label" data-i18n="language.label">
               <button type="button" class="language-switch__button is-active" data-lang="pt-PT" aria-pressed="true" title="Português" data-i18n-attr="title" data-i18n="language.pt">PT</button>
@@ -39,11 +39,11 @@
             <button class="nav__menu__btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links" data-i18n-attr="aria-label" data-i18n="nav.open"><i class="ri-menu-line" aria-hidden="true"></i></button>
           </div>
         </div>
-        <a class="nav__desktop-brand" href="pequenas-aventuras.html" aria-label="Pequenas aventuras" data-i18n-attr="aria-label" data-i18n="nav.adventures"><img src="assets/apple-touch-icon.png" alt="" aria-hidden="true" width="180" height="180" /></a>
+        <a class="nav__desktop-brand" href="index.html" aria-label="Iago Garcia - Início" data-i18n-attr="aria-label" data-i18n="nav.homeBrand"><span data-i18n="nav.name">Iago Garcia</span><img src="assets/apple-touch-icon.png" alt="" aria-hidden="true" width="180" height="180" /></a>
         <ul class="nav__links" id="nav-links">
           <li><a href="index.html" data-i18n="nav.home">Início</a></li>
           <li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li>
-          <li><a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a></li>
+          <li><a href="portfolio.html" data-i18n="nav.portfolio">Portfólio</a></li>
           <li class="nav__logo"><a href="pequenas-aventuras.html" data-i18n="nav.adventures">Pequenas aventuras</a></li>
           <li><a href="galeria.html" aria-current="page" data-i18n="nav.gallery">Galeria</a></li>
           <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
@@ -62,31 +62,63 @@
       <section class="section__container gallery__container gallery-page">
         <p class="section__eyebrow" data-i18n="gallery.eyebrow">Em diferentes momentos</p>
         <h2 class="section__header" data-i18n="gallery.title">Fotografias do meu mundo</h2>
-        <p class="section__description" data-i18n="gallery.intro">Substitui cada imagem na pasta assets pelas tuas fotografias. O recorte pode ser ajustado em styles.css.</p>
         <div class="gallery__grid">
           <!-- Substituir as imagens image-1.jpg a image-8.jpg; ajustar object-position por fotografia para não cortar rostos. -->
-          <img src="assets/image-1.jpg" alt="Retrato ao ar livre" data-i18n-attr="alt" data-i18n="gallery.alt1" />
-          <img src="assets/image-2.jpg" alt="Um momento divertido" data-i18n-attr="alt" data-i18n="gallery.alt2" />
-          <img src="assets/image-3.jpg" alt="Moda infantil" data-i18n-attr="alt" data-i18n="gallery.alt3" />
-          <img src="assets/image-4.jpg" alt="A explorar a natureza" data-i18n-attr="alt" data-i18n="gallery.alt4" />
-          <img src="assets/image-5.jpg" alt="Um retrato espontâneo" data-i18n-attr="alt" data-i18n="gallery.alt5" />
-          <img src="assets/image-6.jpg" alt="Um dia de aventura" data-i18n-attr="alt" data-i18n="gallery.alt6" />
-          <img src="assets/image-7.jpg" alt="Um sorriso para a câmara" data-i18n-attr="alt" data-i18n="gallery.alt7" />
-          <img src="assets/image-8.jpg" alt="Brincadeiras ao ar livre" data-i18n-attr="alt" data-i18n="gallery.alt8" />
+          <figure><img src="assets/image-1.jpg" alt="Retrato ao ar livre" data-i18n-attr="alt" data-i18n="gallery.alt1" /><figcaption data-i18n="gallery.caption1">Um sorriso sem ensaio</figcaption></figure>
+          <figure><img src="assets/image-2.jpg" alt="Um momento divertido" data-i18n-attr="alt" data-i18n="gallery.alt2" /><figcaption data-i18n="gallery.caption2">A minha pose favorita</figcaption></figure>
+          <figure><img src="assets/image-3.jpg" alt="Moda infantil" data-i18n-attr="alt" data-i18n="gallery.alt3" /><figcaption data-i18n="gallery.caption3">Um bocadinho de estilo</figcaption></figure>
+          <figure><img src="assets/image-4.jpg" alt="A explorar a natureza" data-i18n-attr="alt" data-i18n="gallery.alt4" /><figcaption data-i18n="gallery.caption4">O passeio continua</figcaption></figure>
+          <figure><img src="assets/image-6.jpg" alt="Um dia de aventura" data-i18n-attr="alt" data-i18n="gallery.alt6" /><figcaption data-i18n="gallery.caption6">Mais um dia para guardar</figcaption></figure>
+          <figure><img src="assets/image-7.jpg" alt="Um sorriso para a câmara" data-i18n-attr="alt" data-i18n="gallery.alt7" /><figcaption data-i18n="gallery.caption7">Olhos curiosos</figcaption></figure>
+          <figure><img src="assets/image-8.jpg" alt="Brincadeiras ao ar livre" data-i18n-attr="alt" data-i18n="gallery.alt8" /><figcaption data-i18n="gallery.caption8">Paz e meditação</figcaption></figure>
+          <figure><img src="assets/image-9.jpg" alt="fantasias e diversão" data-i18n-attr="alt" data-i18n="gallery.alt9" /><figcaption data-i18n="gallery.caption9">A minha pose de herói</figcaption></figure>
+          <figure><img src="assets/image-10.jpg" alt="Fantasia salvar o mundo" data-i18n-attr="alt" data-i18n="gallery.alt10" /><figcaption data-i18n="gallery.caption10">Ajudando o Homem-Aranha</figcaption></figure>
+          <figure><img src="assets/image-11.jpg" alt="Um dia de praia" data-i18n-attr="alt" data-i18n="gallery.alt11" /><figcaption data-i18n="gallery.caption11">Dia de Caça aos ovos</figcaption></figure>
         </div>
+        <section class="gallery-album" id="album-fashion" aria-labelledby="album-fashion-title">
+          <h2 class="section__header" id="album-fashion-title" data-i18n="portfolio.fashion.title">Moda infantil</h2>
+          <div class="gallery__grid gallery-album__grid">
+            <!-- Trocar pelas fotografias do álbum de moda infantil. -->
+            <figure><img src="assets/portfolio-1.jpg" alt="Moda infantil" data-i18n-attr="alt" data-i18n="portfolio.fashion.alt" /><figcaption data-i18n="portfolio.fashion.text">Looks e combinações de que gosto</figcaption></figure>
+          </div>
+        </section>
+        <section class="gallery-album" id="album-portraits" aria-labelledby="album-portraits-title">
+          <h2 class="section__header" id="album-portraits-title" data-i18n="portfolio.portraits.title">Retratos</h2>
+          <div class="gallery__grid gallery-album__grid">
+            <!-- Trocar pelas fotografias do álbum de retratos. -->
+            <figure><img src="assets/portfolio-2.jpg" alt="Retrato infantil" data-i18n-attr="alt" data-i18n="portfolio.portraits.alt" /><figcaption data-i18n="portfolio.portraits.text">Expressões naturais e sorrisos</figcaption></figure>
+          </div>
+        </section>
+        <section class="gallery-album" id="album-outdoors" aria-labelledby="album-outdoors-title">
+          <h2 class="section__header" id="album-outdoors-title" data-i18n="portfolio.outdoors.title">Ar livre e estilo de vida</h2>
+          <div class="gallery__grid gallery-album__grid">
+            <!-- Trocar pelas fotografias do álbum de ar livre e estilo de vida. -->
+            <figure><img src="assets/portfolio-3.jpg" alt="Aventuras ao ar livre" data-i18n-attr="alt" data-i18n="portfolio.outdoors.alt" /><figcaption data-i18n="portfolio.outdoors.text">Passeios, luz natural e descoberta</figcaption></figure>
+            <figure><img src="assets/image-5.jpg" alt="Um retrato espontâneo" data-i18n-attr="alt" data-i18n="gallery.alt5" /><figcaption data-i18n="gallery.caption5">Pronto para a aventura</figcaption></figure>
+            <figure><img src="assets/image-12.jpg" alt="Um dia de neve" data-i18n-attr="alt" data-i18n="gallery.alt12" /><figcaption data-i18n="gallery.caption12">A brincar na praia</figcaption></figure>
+          </div>
+        </section>
       </section>
     </main>
+    <dialog class="gallery-lightbox" id="gallery-lightbox" aria-label="Fotografia ampliada"
+      data-i18n-attr="aria-label" data-i18n="gallery.lightboxTitle">
+      <div class="gallery-lightbox__scrim" aria-hidden="true"></div>
+      <button class="gallery-lightbox__close" type="button" aria-label="Fechar fotografia"
+        data-i18n-attr="aria-label" data-i18n="gallery.lightboxClose">×</button>
+      <div class="gallery-lightbox__content">
+        <img class="gallery-lightbox__image" alt="" />
+      </div>
+    </dialog>
     <footer>
       <div class="section__container footer__container">
-        <div class="footer__col footer__brand"><a class="footer__wordmark" href="pequenas-aventuras.html" data-i18n="brand">Pequenas aventuras</a><p data-i18n="footer.note">Um portefólio infantil, partilhado com carinho e sempre acompanhado pela família.</p></div>
+        <div class="footer__col footer__brand"><a class="footer__wordmark" href="pequenas-aventuras.html" data-i18n="brand">Pequenas aventuras</a><p data-i18n="footer.note">Um portfólio infantil, partilhado com carinho e sempre acompanhado pela família.</p></div>
         <div class="footer__col"><h2 data-i18n="footer.links">Explorar</h2><ul class="footer__links">
-          <li><a href="index.html" data-i18n="nav.home">Início</a></li><li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li><li><a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a></li><li><a href="pequenas-aventuras.html" data-i18n="nav.adventures">Pequenas aventuras</a></li><li><a href="galeria.html" data-i18n="nav.gallery">Galeria</a></li><li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          <li><a href="index.html" data-i18n="nav.home">Início</a></li><li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li><li><a href="portfolio.html" data-i18n="nav.portfolio">Portfólio</a></li><li><a href="pequenas-aventuras.html" data-i18n="nav.adventures">Pequenas aventuras</a></li><li><a href="galeria.html" data-i18n="nav.gallery">Galeria</a></li><li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
         </ul></div>
         <div class="footer__col footer__contact"><h2 data-i18n="footer.contact">Contacto dos pais</h2><p data-i18n="footer.contactNote">Convites e parcerias são tratados exclusivamente pelos pais.</p><a href="contacto.html#contact-form" data-i18n="contact.button">Contactar os meus pais</a></div>
       </div>
       <div class="footer__bar" data-i18n="footer.copyright">© 2026 Pequenas aventuras. Todos os direitos reservados.</div>
     </footer>
-    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
   </body>
 </html>

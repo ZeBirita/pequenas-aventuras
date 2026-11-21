@@ -2,22 +2,24 @@ const translations = {
   "pt-PT": {
     brand: "Pequenas aventuras",
     "meta.socialImageAlt": "Logótipo de Pequenas aventuras: uma estrela azul com uma coroa",
-    "meta.home": "Um portefólio infantil com momentos, retratos e pequenas aventuras. Contacto e parcerias mediados pelos pais.",
+    "meta.home": "Um portfólio infantil com momentos, retratos e pequenas aventuras. Contacto e parcerias mediados pelos pais.",
     "meta.about": "Conhece a história, a personalidade e o dia a dia de um menino de 6 anos, sempre acompanhado pelos pais.",
-    "meta.portfolio": "Moda infantil, retratos e sessões ao ar livre num portefólio infantil acompanhado pelos pais.",
-    "meta.adventures": "Passeios, brincadeiras, momentos do dia a dia e bastidores de um portefólio infantil acompanhado pelos pais.",
+    "meta.portfolio": "Moda infantil, retratos e sessões ao ar livre num portfólio infantil acompanhado pelos pais.",
+    "meta.adventures": "Passeios, brincadeiras, momentos do dia a dia e bastidores de um portfólio infantil acompanhado pelos pais.",
     "meta.gallery": "Galeria de fotografias de moda infantil, retratos e momentos ao ar livre, com imagens fáceis de substituir.",
     "meta.contact": "Contacto para convites, marcas e produções, gerido sempre pelos pais do menino.",
     "title.home": "Início | Pequenas aventuras",
     "title.about": "Sobre mim | Pequenas aventuras",
-    "title.portfolio": "Portefólio | Pequenas aventuras",
-    "title.adventures": "Pequenas aventuras | Portefólio infantil",
+    "title.portfolio": "Portfólio | Pequenas aventuras",
+    "title.adventures": "Pequenas aventuras | Portfólio infantil",
     "title.gallery": "Galeria | Pequenas aventuras",
     "title.contact": "Contacto | Pequenas aventuras",
     "nav.aria": "Navegação principal",
     "nav.open": "Abrir menu",
     "nav.close": "Fechar menu",
     "nav.home": "Início",
+    "nav.name": "Iago Garcia",
+    "nav.homeBrand": "Iago Garcia - Página inicial",
     "nav.about": "Sobre mim",
     "nav.portfolio": "Portfólio",
     "nav.adventures": "Pequenas aventuras",
@@ -29,11 +31,11 @@ const translations = {
     "language.es": "Espanhol",
     "home.eyebrow": "O meu mundo em imagens",
     "home.title": "Olá! Tenho 6 anos e adoro estar à frente da câmara.",
-    "home.description": "Um portefólio de momentos divertidos, pequenos projetos de moda e grandes aventuras.",
-    "home.button": "Descobrir o portefólio",
+    "home.description": "Um portfólio de momentos divertidos, pequenos projetos de moda e grandes aventuras.",
+    "home.button": "Descobrir o portfólio",
     "home.profileEyebrow": "Muito prazer!",
     "home.profileTitle": "Um bocadinho sobre mim",
-    "home.profileDescription": "Sou um menino curioso e cheio de energia. Gosto de brincar, imaginar histórias e descobrir sítios novos. Todas as sessões e parcerias são acompanhadas pelos meus pais.",
+    "home.profileDescription": "Tenho 6 anos, adoro construir com Legos, aprender na escola e descobrir o mundo ao meu ritmo. Sou respeitoso, gosto de partilhar e conto sempre com os meus pais — até nas histórias antes de dormir.",
     "home.exploreEyebrow": "Por onde queres começar?",
     "home.exploreTitle": "Explora o meu mundo",
     "home.linkAbout": "Conhece-me melhor",
@@ -45,10 +47,14 @@ const translations = {
     "home.galleryButton": "Ver a galeria completa",
     "about.pageEyebrow": "Muito prazer!",
     "about.pageTitle": "Um bocadinho sobre mim",
-    "about.pageDescription": "A minha história, as coisas de que gosto e o que me faz sentir bem em frente à câmara.",
+    "about.pageDescription": "Tenho 6 anos, adoro construir com Legos, aprender na escola e descobrir o mundo ao meu ritmo. Sou respeitoso, gosto de partilhar e conto sempre com os meus pais — até nas histórias antes de dormir.",
     "about.historyEyebrow": "A minha história",
     "about.historyTitle": "Seis anos de curiosidade",
-    "about.historyText": "Tenho 6 anos e gosto de descobrir o mundo ao meu ritmo. Entre brincadeiras, passeios e histórias inventadas, vou colecionando momentos que a minha família guarda com carinho.",
+    "about.historyText": "Tenho 6 anos e gosto de descobrir o mundo ao meu ritmo. Entre brincadeiras, passeios e histórias inventadas, vou colecionando momentos que a minha família guarda com carinho — e meus pais sempre leem livros para mim antes de dormir.",
+    "about.likesTitle": "O que eu mais gosto de fazer",
+    "about.likesText": "Adoro montar Legos, imaginar novas construções e ver cada peça encaixar no lugar. Também tenho gosto em ir para a escola e aprender coisas novas a cada dia.",
+    "about.othersTitle": "Como eu sou com os outros",
+    "about.othersText": "Sou muito respeitoso com as pessoas e, principalmente, com os meus pais. Procuro sempre dividir o que tenho com quem está por perto e resolver tudo na base de uma boa conversa.",
     "about.personalityTitle": "Cheio de ideias",
     "about.personalityText": "Sou curioso, bem-disposto e gosto de transformar qualquer brincadeira numa nova aventura.",
     "about.cameraTitle": "À vontade, sem pressas",
@@ -59,22 +65,25 @@ const translations = {
     "about.noteTitle": "Ser eu próprio",
     "about.noteText": "Cada experiência deve ser divertida, adequada à minha idade e respeitar os meus limites. As fotografias são uma forma de guardar estes momentos especiais em família.",
     "portfolio.pageEyebrow": "Trabalhos e sessões",
-    "portfolio.pageTitle": "O meu portefólio",
+    "portfolio.pageTitle": "O meu portfólio",
     "portfolio.pageDescription": "Looks, retratos e sessões ao ar livre, sempre com a minha família por perto.",
     "portfolio.eyebrow": "Um pouco de tudo",
     "portfolio.title": "Trabalhos em destaque",
-    "portfolio.intro": "Uma seleção de looks, retratos e projetos fotográficos. As imagens atuais são exemplos temporários: substitui os ficheiros indicados pelas tuas fotografias.",
+    "portfolio.intro": "Uma seleção de looks, retratos e projetos fotográficos. Cada fotografia guarda uma história, uma expressão ou um momento especial.",
     "portfolio.fashion.aria": "Ver moda infantil",
     "portfolio.fashion.alt": "Moda infantil",
     "portfolio.fashion.title": "Moda infantil",
+    "portfolio.fashion.tag": "Um bocadinho de estilo",
     "portfolio.fashion.text": "Looks e combinações de que gosto",
     "portfolio.portraits.aria": "Ver retratos",
     "portfolio.portraits.alt": "Retrato infantil",
     "portfolio.portraits.title": "Retratos",
+    "portfolio.portraits.tag": "Sem ensaiar o sorriso",
     "portfolio.portraits.text": "Expressões naturais e sorrisos",
     "portfolio.outdoors.aria": "Ver fotografias ao ar livre",
     "portfolio.outdoors.alt": "Aventuras ao ar livre",
     "portfolio.outdoors.title": "Ar livre e estilo de vida",
+    "portfolio.outdoors.tag": "Sol, passos e gargalhadas",
     "portfolio.outdoors.text": "Passeios, luz natural e descoberta",
     "portfolio.familyEyebrow": "Com acompanhamento",
     "portfolio.familyTitle": "Sessões pensadas para crianças",
@@ -105,7 +114,8 @@ const translations = {
     "gallery.pageDescription": "Uma coleção de fotografias para recordar os meus looks, sorrisos e aventuras.",
     "gallery.eyebrow": "Em diferentes momentos",
     "gallery.title": "Fotografias do meu mundo",
-    "gallery.intro": "Substitui cada imagem na pasta assets pelas tuas fotografias. O recorte pode ser ajustado em styles.css.",
+    "gallery.lightboxTitle": "Fotografia ampliada",
+    "gallery.lightboxClose": "Fechar fotografia",
     "gallery.alt1": "Retrato ao ar livre",
     "gallery.alt2": "Um momento divertido",
     "gallery.alt3": "Moda infantil",
@@ -114,6 +124,22 @@ const translations = {
     "gallery.alt6": "Um dia de aventura",
     "gallery.alt7": "Um sorriso para a câmara",
     "gallery.alt8": "Brincadeiras ao ar livre",
+    "gallery.alt9": "Fantasias e diversão",
+    "gallery.alt10": "A imaginar como salvar o mundo",
+    "gallery.caption1": "Um sorriso sem ensaio",
+    "gallery.caption2": "A minha pose favorita",
+    "gallery.caption3": "Um bocadinho de estilo",
+    "gallery.caption4": "O passeio continua",
+    "gallery.caption5": "Pronto para a aventura",
+    "gallery.caption6": "Mais um dia para guardar",
+    "gallery.caption7": "Olhos curiosos",
+    "gallery.caption8": "Paz e meditação",
+    "gallery.caption9": "A minha pose de herói",
+    "gallery.caption10": "A ajudar o Homem-Aranha",
+    "gallery.alt11": "Um dia de praia",
+    "gallery.alt12": "Um dia de neve",
+    "gallery.caption11": "Dia da caça aos ovos",
+    "gallery.caption12": "A brincar na praia",
     "contact.pageEyebrow": "Fala com a minha família",
     "contact.pageTitle": "Contacto",
     "contact.pageDescription": "Convites, marcas e produções: todas as mensagens são recebidas e geridas pelos meus pais.",
@@ -134,7 +160,7 @@ const translations = {
     "contact.requiredTrimmed": "Introduz pelo menos um carácter que não seja um espaço.",
     "contact.messageWithoutCompany": "Olá, sou {name}. Gostaria de falar com os pais sobre {purpose}. Obrigado pelo vosso tempo.",
     "contact.messageWithCompany": "Olá, sou {name} e represento a empresa {company}. Gostaria de falar com os pais sobre {purpose}. Obrigado pelo vosso tempo.",
-    "contact.emailSubject": "Contacto sobre o portefólio",
+    "contact.emailSubject": "Contacto sobre o portfólio",
     "contact.methodPrompt": "Por onde queres falar com os meus pais?",
     "contact.methodEmail": "E-Mail",
     "contact.methodWhatsApp": "WhatsApp",
@@ -143,7 +169,7 @@ const translations = {
     "contact.privacy": "A minha privacidade e segurança são importantes. O contacto é sempre mediado pelos meus pais.",
     "strip.label": "Faixa de fotografias",
     "strip.title": "Mais pequenos grandes momentos",
-    "footer.note": "Um portefólio infantil, partilhado com carinho e sempre acompanhado pela família.",
+    "footer.note": "Um portfólio infantil, partilhado com carinho e sempre acompanhado pela família.",
     "footer.links": "Explorar",
     "footer.contact": "Contacto dos pais",
     "footer.contactNote": "Convites e parcerias são tratados exclusivamente pelos pais.",
@@ -168,6 +194,8 @@ const translations = {
     "nav.open": "Open menu",
     "nav.close": "Close menu",
     "nav.home": "Home",
+    "nav.name": "Iago Garcia",
+    "nav.homeBrand": "Iago Garcia - Home",
     "nav.about": "About me",
     "nav.portfolio": "Portfolio",
     "nav.adventures": "Little adventures",
@@ -183,7 +211,7 @@ const translations = {
     "home.button": "Explore my portfolio",
     "home.profileEyebrow": "Nice to meet you!",
     "home.profileTitle": "A little about me",
-    "home.profileDescription": "I'm a curious, energetic boy. I love playing, making up stories and discovering new places. My parents accompany every session and partnership.",
+    "home.profileDescription": "I'm 6 years old, love building with LEGO, learning at school and discovering the world at my own pace. I'm respectful, enjoy sharing and can always count on my parents — even for bedtime stories.",
     "home.exploreEyebrow": "Where would you like to start?",
     "home.exploreTitle": "Explore my world",
     "home.linkAbout": "Get to know me",
@@ -195,10 +223,14 @@ const translations = {
     "home.galleryButton": "View the full gallery",
     "about.pageEyebrow": "Nice to meet you!",
     "about.pageTitle": "A little about me",
-    "about.pageDescription": "My story, the things I enjoy and what helps me feel comfortable in front of the camera.",
+    "about.pageDescription": "I'm 6 years old, love building with LEGO, learning at school and discovering the world at my own pace. I'm respectful, enjoy sharing and can always count on my parents — even for bedtime stories.",
     "about.historyEyebrow": "My story",
     "about.historyTitle": "Six years of curiosity",
-    "about.historyText": "I'm 6 years old and I like discovering the world at my own pace. Between playtime, outings and made-up stories, I collect moments my family keeps with love.",
+    "about.historyText": "I'm 6 years old and like discovering the world at my own pace. Between playtime, outings and made-up stories, I collect moments my family cherishes — and my parents always read books to me before bed.",
+    "about.likesTitle": "What I love doing most",
+    "about.likesText": "I love building with LEGO, imagining new creations and watching each piece click into place. I also enjoy going to school and learning something new every day.",
+    "about.othersTitle": "How I am with others",
+    "about.othersText": "I'm very respectful toward people, especially my parents. I always try to share what I have with those around me and work things out with a good conversation.",
     "about.personalityTitle": "Full of ideas",
     "about.personalityText": "I'm curious and cheerful, and I love turning any game into a new adventure.",
     "about.cameraTitle": "Relaxed, with no rush",
@@ -213,18 +245,21 @@ const translations = {
     "portfolio.pageDescription": "Looks, portraits and outdoor sessions, always with my family close by.",
     "portfolio.eyebrow": "A little bit of everything",
     "portfolio.title": "Featured work",
-    "portfolio.intro": "A selection of looks, portraits and photo projects. These are placeholders: replace the indicated files with your own images.",
+    "portfolio.intro": "A selection of looks, portraits and photo projects. Each photograph captures a story, an expression or a special moment.",
     "portfolio.fashion.aria": "View children's fashion",
     "portfolio.fashion.alt": "Children's fashion",
     "portfolio.fashion.title": "Children's fashion",
+    "portfolio.fashion.tag": "A little bit of style",
     "portfolio.fashion.text": "Looks and outfits I like",
     "portfolio.portraits.aria": "View portraits",
     "portfolio.portraits.alt": "Child portrait",
     "portfolio.portraits.title": "Portraits",
+    "portfolio.portraits.tag": "No need to pose a smile",
     "portfolio.portraits.text": "Natural expressions and smiles",
     "portfolio.outdoors.aria": "View outdoor photos",
     "portfolio.outdoors.alt": "Outdoor adventures",
     "portfolio.outdoors.title": "Outdoors and lifestyle",
+    "portfolio.outdoors.tag": "Sunshine, steps and giggles",
     "portfolio.outdoors.text": "Outings, natural light and discovery",
     "portfolio.familyEyebrow": "With supervision",
     "portfolio.familyTitle": "Sessions made for children",
@@ -255,7 +290,8 @@ const translations = {
     "gallery.pageDescription": "A collection of photos to remember my looks, smiles and adventures.",
     "gallery.eyebrow": "Different moments",
     "gallery.title": "Photos from my world",
-    "gallery.intro": "Replace each image in the assets folder with your own. You can adjust the crop in styles.css.",
+    "gallery.lightboxTitle": "Enlarged photo",
+    "gallery.lightboxClose": "Close photo",
     "gallery.alt1": "Outdoor portrait",
     "gallery.alt2": "A fun moment",
     "gallery.alt3": "Children's fashion",
@@ -264,6 +300,22 @@ const translations = {
     "gallery.alt6": "A day of adventure",
     "gallery.alt7": "A smile for the camera",
     "gallery.alt8": "Outdoor play",
+    "gallery.alt9": "Costumes and fun",
+    "gallery.alt10": "Imagining how to save the world",
+    "gallery.caption1": "A smile, just as it happened",
+    "gallery.caption2": "My favourite pose",
+    "gallery.caption3": "A little bit of style",
+    "gallery.caption4": "The outing goes on",
+    "gallery.caption5": "Ready for an adventure",
+    "gallery.caption6": "Another day to remember",
+    "gallery.caption7": "Curious eyes",
+    "gallery.caption8": "Peace and meditation",
+    "gallery.caption9": "My superhero pose",
+    "gallery.caption10": "Helping Spider-Man",
+    "gallery.alt11": "A day at the beach",
+    "gallery.alt12": "A day in the snow",
+    "gallery.caption11": "A day of Easter egg hunting",
+    "gallery.caption12": "Playing at the beach",
     "contact.pageEyebrow": "Get in touch with my family",
     "contact.pageTitle": "Contact",
     "contact.pageDescription": "Invitations, brands and productions: my parents receive and manage every message.",
@@ -318,6 +370,8 @@ const translations = {
     "nav.open": "Abrir menú",
     "nav.close": "Cerrar menú",
     "nav.home": "Inicio",
+    "nav.name": "Iago Garcia",
+    "nav.homeBrand": "Iago Garcia - Inicio",
     "nav.about": "Sobre mí",
     "nav.portfolio": "Portafolio",
     "nav.adventures": "Pequeñas aventuras",
@@ -333,7 +387,7 @@ const translations = {
     "home.button": "Descubrir el portafolio",
     "home.profileEyebrow": "¡Encantado de conocerte!",
     "home.profileTitle": "Un poquito sobre mí",
-    "home.profileDescription": "Soy un niño curioso y lleno de energía. Me gusta jugar, imaginar historias y descubrir lugares nuevos. Mis padres acompañan todas las sesiones y colaboraciones.",
+    "home.profileDescription": "Tengo 6 años, me encanta construir con LEGO, aprender en el colegio y descubrir el mundo a mi ritmo. Soy respetuoso, me gusta compartir y siempre puedo contar con mis padres, incluso para los cuentos antes de dormir.",
     "home.exploreEyebrow": "¿Por dónde quieres empezar?",
     "home.exploreTitle": "Explora mi mundo",
     "home.linkAbout": "Conóceme mejor",
@@ -345,10 +399,14 @@ const translations = {
     "home.galleryButton": "Ver la galería completa",
     "about.pageEyebrow": "¡Encantado de conocerte!",
     "about.pageTitle": "Un poquito sobre mí",
-    "about.pageDescription": "Mi historia, las cosas que me gustan y lo que me ayuda a sentirme cómodo delante de la cámara.",
+    "about.pageDescription": "Tengo 6 años, me encanta construir con LEGO, aprender en el colegio y descubrir el mundo a mi ritmo. Soy respetuoso, me gusta compartir y siempre puedo contar con mis padres, incluso para los cuentos antes de dormir.",
     "about.historyEyebrow": "Mi historia",
     "about.historyTitle": "Seis años de curiosidad",
-    "about.historyText": "Tengo 6 años y me gusta descubrir el mundo a mi ritmo. Entre juegos, paseos e historias inventadas, reúno momentos que mi familia guarda con cariño.",
+    "about.historyText": "Tengo 6 años y me gusta descubrir el mundo a mi ritmo. Entre juegos, paseos e historias inventadas, reúno momentos que mi familia guarda con cariño — y mis padres siempre me leen libros antes de dormir.",
+    "about.likesTitle": "Lo que más me gusta hacer",
+    "about.likesText": "Me encanta construir con LEGO, imaginar nuevas creaciones y ver cómo encaja cada pieza. También me gusta ir al colegio y aprender cosas nuevas cada día.",
+    "about.othersTitle": "Cómo soy con los demás",
+    "about.othersText": "Soy muy respetuoso con las personas y, sobre todo, con mis padres. Siempre intento compartir lo que tengo con quienes están cerca y resolverlo todo con una buena conversación.",
     "about.personalityTitle": "Lleno de ideas",
     "about.personalityText": "Soy curioso y alegre, y me encanta convertir cualquier juego en una nueva aventura.",
     "about.cameraTitle": "Tranquilo y sin prisas",
@@ -363,18 +421,21 @@ const translations = {
     "portfolio.pageDescription": "Looks, retratos y sesiones al aire libre, siempre con mi familia cerca.",
     "portfolio.eyebrow": "Un poco de todo",
     "portfolio.title": "Trabajos destacados",
-    "portfolio.intro": "Una selección de looks, retratos y proyectos fotográficos. Estas imágenes son marcadores: sustitúyelas por tus propias fotos.",
+    "portfolio.intro": "Una selección de looks, retratos y proyectos fotográficos. Cada fotografía guarda una historia, una expresión o un momento especial.",
     "portfolio.fashion.aria": "Ver moda infantil",
     "portfolio.fashion.alt": "Moda infantil",
     "portfolio.fashion.title": "Moda infantil",
+    "portfolio.fashion.tag": "Un toque de estilo",
     "portfolio.fashion.text": "Looks y combinaciones que me gustan",
     "portfolio.portraits.aria": "Ver retratos",
     "portfolio.portraits.alt": "Retrato infantil",
     "portfolio.portraits.title": "Retratos",
+    "portfolio.portraits.tag": "Sin ensayar la sonrisa",
     "portfolio.portraits.text": "Expresiones naturales y sonrisas",
     "portfolio.outdoors.aria": "Ver fotografías al aire libre",
     "portfolio.outdoors.alt": "Aventuras al aire libre",
     "portfolio.outdoors.title": "Aire libre y estilo de vida",
+    "portfolio.outdoors.tag": "Sol, pasos y carcajadas",
     "portfolio.outdoors.text": "Paseos, luz natural y descubrimientos",
     "portfolio.familyEyebrow": "Con acompañamiento",
     "portfolio.familyTitle": "Sesiones pensadas para niños",
@@ -405,7 +466,8 @@ const translations = {
     "gallery.pageDescription": "Una colección de fotos para recordar mis looks, sonrisas y aventuras.",
     "gallery.eyebrow": "En distintos momentos",
     "gallery.title": "Fotos de mi mundo",
-    "gallery.intro": "Sustituye cada imagen de la carpeta assets por tus fotos. Puedes ajustar el recorte en styles.css.",
+    "gallery.lightboxTitle": "Fotografía ampliada",
+    "gallery.lightboxClose": "Cerrar fotografía",
     "gallery.alt1": "Retrato al aire libre",
     "gallery.alt2": "Un momento divertido",
     "gallery.alt3": "Moda infantil",
@@ -414,6 +476,22 @@ const translations = {
     "gallery.alt6": "Un día de aventura",
     "gallery.alt7": "Una sonrisa para la cámara",
     "gallery.alt8": "Juegos al aire libre",
+    "gallery.alt9": "Disfraces y diversión",
+    "gallery.alt10": "Imaginando cómo salvar el mundo",
+    "gallery.caption1": "Una sonrisa sin posar",
+    "gallery.caption2": "Mi pose favorita",
+    "gallery.caption3": "Un toque de estilo",
+    "gallery.caption4": "El paseo continúa",
+    "gallery.caption5": "Listo para la aventura",
+    "gallery.caption6": "Otro día para recordar",
+    "gallery.caption7": "Ojos curiosos",
+    "gallery.caption8": "Paz y meditación",
+    "gallery.caption9": "Mi pose de héroe",
+    "gallery.caption10": "Ayudando a Spider-Man",
+    "gallery.alt11": "Un día de playa",
+    "gallery.alt12": "Un día de nieve",
+    "gallery.caption11": "Día de búsqueda de huevos de Pascua",
+    "gallery.caption12": "Jugando en la playa",
     "contact.pageEyebrow": "Habla con mi familia",
     "contact.pageTitle": "Contacto",
     "contact.pageDescription": "Invitaciones, marcas y producciones: mis padres reciben y gestionan todos los mensajes.",
@@ -602,6 +680,257 @@ if (contactForm) {
 
 setLanguage("pt-PT");
 
+const galleryPage = document.querySelector(".gallery-page");
+const galleryLightbox = document.getElementById("gallery-lightbox");
+const galleryLightboxImage = galleryLightbox
+  ? galleryLightbox.querySelector(".gallery-lightbox__image")
+  : null;
+const galleryLightboxScrim = galleryLightbox
+  ? galleryLightbox.querySelector(".gallery-lightbox__scrim")
+  : null;
+const galleryLightboxClose = galleryLightbox
+  ? galleryLightbox.querySelector(".gallery-lightbox__close")
+  : null;
+
+if (
+  galleryPage &&
+  galleryLightbox &&
+  galleryLightboxImage &&
+  galleryLightboxScrim &&
+  galleryLightboxClose &&
+  typeof galleryLightbox.showModal === "function"
+) {
+  let lastOpenedGalleryImage = null;
+  let galleryImageAnimation = null;
+  let galleryScrimAnimation = null;
+  let galleryLightboxState = "closed";
+  const galleryAnimationOptions = {
+    duration: 480,
+    easing: "cubic-bezier(0.2, 0.75, 0.25, 1)",
+  };
+
+  const lockGalleryPageScroll = () => {
+    document.documentElement.classList.add("gallery-lightbox-open");
+    document.body.classList.add("gallery-lightbox-open");
+  };
+
+  const unlockGalleryPageScroll = () => {
+    document.documentElement.classList.remove("gallery-lightbox-open");
+    document.body.classList.remove("gallery-lightbox-open");
+  };
+
+  const getGalleryImageTransform = (fromRect, toRect) => {
+    const scale = Math.min(
+      fromRect.width / toRect.width,
+      fromRect.height / toRect.height,
+    );
+    const translateX =
+      fromRect.left +
+      fromRect.width / 2 -
+      (toRect.left + toRect.width / 2);
+    const translateY =
+      fromRect.top +
+      fromRect.height / 2 -
+      (toRect.top + toRect.height / 2);
+
+    return `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+  };
+
+  const closeGalleryLightbox = () => {
+    if (!galleryLightbox.open || galleryLightboxState === "closing") {
+      return;
+    }
+
+    galleryLightbox.classList.add("is-closing");
+
+    if (
+      galleryLightboxState === "opening" &&
+      galleryImageAnimation
+    ) {
+      galleryLightboxState = "closing";
+      galleryImageAnimation.reverse();
+      if (galleryScrimAnimation) {
+        galleryScrimAnimation.reverse();
+      }
+      galleryImageAnimation.onfinish = () => {
+        galleryImageAnimation = null;
+        galleryScrimAnimation = null;
+        galleryLightboxState = "closed";
+        galleryLightbox.close();
+      };
+      return;
+    }
+
+    const sourceRect = lastOpenedGalleryImage.getBoundingClientRect();
+    const modalRect = galleryLightboxImage.getBoundingClientRect();
+    const prefersReducedMotion = window.matchMedia(
+      "(prefers-reduced-motion: reduce)",
+    ).matches;
+
+    if (
+      prefersReducedMotion ||
+      typeof galleryLightboxImage.animate !== "function" ||
+      !sourceRect.width ||
+      !sourceRect.height ||
+      !modalRect.width ||
+      !modalRect.height
+    ) {
+      galleryLightboxState = "closed";
+      galleryLightbox.close();
+      return;
+    }
+
+    galleryLightboxState = "closing";
+    galleryScrimAnimation = galleryLightboxScrim.animate(
+      [{ opacity: 1 }, { opacity: 0 }],
+      galleryAnimationOptions,
+    );
+    galleryImageAnimation = galleryLightboxImage.animate(
+      [
+        {
+          transform: "translate(0, 0) scale(1)",
+          borderRadius: "0",
+        },
+        {
+          transform: getGalleryImageTransform(sourceRect, modalRect),
+          borderRadius: "7px",
+        },
+      ],
+      galleryAnimationOptions,
+    );
+    galleryImageAnimation.onfinish = () => {
+      galleryImageAnimation = null;
+      galleryLightboxState = "closed";
+      galleryLightbox.close();
+    };
+  };
+
+  galleryPage.querySelectorAll(".gallery__grid img").forEach((image) => {
+    image.tabIndex = 0;
+    image.setAttribute("role", "button");
+    image.setAttribute("aria-haspopup", "dialog");
+
+    const openGalleryImage = () => {
+      if (galleryLightbox.open) {
+        return;
+      }
+
+      lastOpenedGalleryImage = image;
+      const sourceRect = image.getBoundingClientRect();
+      image.classList.add("is-lightbox-source");
+      galleryLightboxImage.src = image.currentSrc || image.src;
+      galleryLightboxImage.alt = image.alt;
+      galleryLightbox.classList.remove("is-visible");
+      galleryLightbox.classList.remove("is-closing");
+      lockGalleryPageScroll();
+      galleryLightbox.showModal();
+      galleryLightboxClose.focus();
+      galleryLightboxState = "open";
+
+      const animateGalleryImageFromSource = () => {
+        if (!galleryLightbox.open || !galleryLightboxImage.naturalWidth) {
+          return;
+        }
+
+        const modalRect = galleryLightboxImage.getBoundingClientRect();
+        const prefersReducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+
+        if (
+          prefersReducedMotion ||
+          typeof galleryLightboxImage.animate !== "function" ||
+          !sourceRect.width ||
+          !sourceRect.height ||
+          !modalRect.width ||
+          !modalRect.height
+        ) {
+          galleryLightbox.classList.add("is-visible");
+          return;
+        }
+
+        galleryLightboxState = "opening";
+        galleryScrimAnimation = galleryLightboxScrim.animate(
+          [{ opacity: 0 }, { opacity: 1 }],
+          galleryAnimationOptions,
+        );
+        galleryImageAnimation = galleryLightboxImage.animate(
+          [
+            {
+              transform: getGalleryImageTransform(sourceRect, modalRect),
+              borderRadius: "7px",
+            },
+            {
+              transform: "translate(0, 0) scale(1)",
+              borderRadius: "0",
+            },
+          ],
+          galleryAnimationOptions,
+        );
+        galleryImageAnimation.onfinish = () => {
+          if (galleryLightboxState === "opening") {
+            galleryImageAnimation = null;
+            galleryScrimAnimation = null;
+            galleryLightboxState = "open";
+          }
+        };
+        galleryLightbox.classList.add("is-visible");
+      };
+
+      if (galleryLightboxImage.complete && galleryLightboxImage.naturalWidth) {
+        animateGalleryImageFromSource();
+      } else {
+        galleryLightboxImage.addEventListener(
+          "load",
+          animateGalleryImageFromSource,
+          { once: true },
+        );
+      }
+    };
+
+    image.addEventListener("click", openGalleryImage);
+    image.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        openGalleryImage();
+      }
+    });
+  });
+
+  galleryLightbox.addEventListener("click", closeGalleryLightbox);
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && galleryLightbox.open) {
+      event.preventDefault();
+      closeGalleryLightbox();
+    }
+  });
+  galleryLightbox.addEventListener("cancel", (event) => {
+    event.preventDefault();
+    closeGalleryLightbox();
+  });
+  galleryLightbox.addEventListener("close", () => {
+    if (galleryImageAnimation) {
+      galleryImageAnimation.cancel();
+      galleryImageAnimation = null;
+    }
+    if (galleryScrimAnimation) {
+      galleryScrimAnimation.cancel();
+      galleryScrimAnimation = null;
+    }
+    galleryLightboxState = "closed";
+    galleryLightbox.classList.remove("is-visible");
+    galleryLightbox.classList.remove("is-closing");
+    galleryLightboxImage.removeAttribute("src");
+    galleryLightboxImage.alt = "";
+    unlockGalleryPageScroll();
+    if (lastOpenedGalleryImage) {
+      lastOpenedGalleryImage.classList.remove("is-lightbox-source");
+      lastOpenedGalleryImage.focus({ preventScroll: true });
+      lastOpenedGalleryImage = null;
+    }
+  });
+}
+
 const instagram = document.querySelector(".instagram__flex");
 if (instagram) {
   Array.from(instagram.children).forEach((item) => {
@@ -611,26 +940,27 @@ if (instagram) {
   });
 }
 
-const scrollRevealOption = {
-  distance: "50px",
-  origin: "bottom",
-  duration: 1000,
-};
+const revealTargets = document.querySelectorAll(
+  ".home-intro, .story-intro, .quicklink, .profile-card, .story-card, " +
+    ".portfolio__card, .gallery__grid figure, .contact-panel",
+);
 
 if (
-  !window.matchMedia("(prefers-reduced-motion: reduce)").matches &&
-  typeof ScrollReveal === "function"
+  revealTargets.length &&
+  "IntersectionObserver" in window &&
+  !window.matchMedia("(prefers-reduced-motion: reduce)").matches
 ) {
-  ScrollReveal().reveal(".home-intro > *, .quicklink", {
-    ...scrollRevealOption,
-    interval: 200,
-  });
-  ScrollReveal().reveal(".profile-card, .story-card, .portfolio__card", {
-    ...scrollRevealOption,
-    interval: 150,
-  });
-  ScrollReveal().reveal(".gallery__grid img, .contact-panel > *", {
-    ...scrollRevealOption,
-    interval: 100,
+  const revealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  revealTargets.forEach((element) => {
+    element.setAttribute("data-reveal", "");
+    revealObserver.observe(element);
   });
 }

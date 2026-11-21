@@ -1,6 +1,6 @@
-# Portefólio infantil
+# Portfólio infantil
 
-Site responsivo para um portefólio infantil, com seis páginas independentes. Cada página partilha o mesmo cabeçalho, menu responsivo, seletor de idioma e rodapé. O idioma inicial é sempre Português de Portugal (`pt-PT`); Inglês e Espanhol são aplicados sem recarregar a página e só ficam guardados após um clique no seletor.
+Site responsivo para um portfólio infantil, com seis páginas independentes. Cada página partilha o mesmo cabeçalho, menu responsivo, seletor de idioma e rodapé. O idioma inicial é sempre Português de Portugal (`pt-PT`); Inglês e Espanhol são aplicados sem recarregar a página e só ficam guardados após um clique no seletor.
 
 ## Páginas
 
@@ -28,6 +28,8 @@ O logótipo com cantos arredondados também aparece na navegação: à esquerda 
 
 Os comentários junto às imagens em cada HTML indicam o seu papel. Os retratos usam `object-fit: cover` e `object-position` orientado para manter os rostos enquadrados. Se necessário, ajuste `object-position` no `styles.css`; o cabeçalho usa `background-position`. Os ficheiros `blog.jpg`, `service.jpg`, `client-*.jpg` e `logo-*.png` são remanescentes do template e não são utilizados.
 
+As fotografias da galeria estão dentro de elementos `<figure>` com legendas traduzidas. Pode trocar o texto da legenda no HTML e atualizar a mesma chave nos três idiomas em `main.js`. O CSS usa um enquadramento pelo topo para ajudar a preservar rostos; afine `object-position` individualmente se uma imagem precisar de outro corte.
+
 As pré-visualizações sociais apontam para `https://zebirita.github.io/pequenas-aventuras/assets/social-preview.jpg`. Para que outros serviços consigam carregar a imagem, o site e o ficheiro têm de estar publicados num endereço público; atualize os metadados `og:url`, `og:image` e `twitter:image` se usar outro domínio.
 
 ## Textos e idiomas
@@ -46,5 +48,7 @@ O formulário em `contacto.html` recolhe nome, empresa (opcional) e propósito d
 
 ## Recursos comuns
 
-- `styles.css`: paleta, tipografia, layout e comportamento responsivo comum.
-- `main.js`: traduções, seletor de idioma, menu móvel, animações e faixa de imagens.
+- `styles.css`: paleta, tipografia, layout e comportamento responsivo comum. As cores principais estão nas propriedades `--text-dark`, `--text-light`, `--accent`, `--paper` e `--surface` em `:root`; as fontes são definidas no `@import` e em `--header-font`/`--body-font`.
+- `main.js`: traduções, seletor de idioma, menu móvel, faixa de imagens e animação de entrada nativa, que respeita `prefers-reduced-motion`.
+
+O visual editorial combina os títulos em Cormorant Garamond com o texto em DM Sans, cartões com sombras suaves e etiquetas discretas. Não é necessário carregar uma biblioteca externa de animação.
