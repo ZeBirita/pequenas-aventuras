@@ -1,6 +1,7 @@
 const translations = {
   "pt-PT": {
     brand: "Pequenas aventuras",
+    "meta.socialImageAlt": "Um menino sorridente vestido de super-herói",
     "meta.home": "Um portefólio infantil com momentos, retratos e pequenas aventuras. Contacto e parcerias mediados pelos pais.",
     "meta.about": "Conhece a história, a personalidade e o dia a dia de um menino de 6 anos, sempre acompanhado pelos pais.",
     "meta.portfolio": "Moda infantil, retratos e sessões ao ar livre num portefólio infantil acompanhado pelos pais.",
@@ -150,6 +151,7 @@ const translations = {
   },
   en: {
     brand: "Little adventures",
+    "meta.socialImageAlt": "A smiling boy dressed as a superhero",
     "meta.home": "A children's portfolio of moments, portraits and little adventures. Contact and partnerships are managed by parents.",
     "meta.about": "Meet the story and personality of a 6-year-old boy, always accompanied by his parents.",
     "meta.portfolio": "Children's fashion, portraits and outdoor sessions in a portfolio managed with parental supervision.",
@@ -299,6 +301,7 @@ const translations = {
   },
   es: {
     brand: "Pequeñas aventuras",
+    "meta.socialImageAlt": "Un niño sonriente vestido de superhéroe",
     "meta.home": "Un portafolio infantil con momentos, retratos y pequeñas aventuras. Mis padres gestionan todos los contactos y colaboraciones.",
     "meta.about": "Conoce la historia y personalidad de un niño de 6 años, siempre acompañado por sus padres.",
     "meta.portfolio": "Moda infantil, retratos y sesiones al aire libre en un portafolio acompañado por sus padres.",
