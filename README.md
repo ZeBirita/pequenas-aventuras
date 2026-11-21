@@ -20,6 +20,8 @@ Substitua as imagens utilizadas mantendo os nomes e os caminhos:
 - `assets/Icone.jpg`: imagem original do logótipo.
 - `assets/favicon-32.png` e `assets/apple-touch-icon.png`: ícones do separador e de dispositivos móveis (32 × 32 e 180 × 180).
 - `assets/social-preview.jpg`: pré-visualização Open Graph/Twitter (1200 × 630).
+
+O logótipo com cantos arredondados também aparece na navegação: à esquerda dos links no computador e imediatamente à direita do nome no telemóvel.
 - `assets/header.jpg`: imagem horizontal de fundo do cabeçalho.
 - `assets/portfolio-1.jpg`, `assets/portfolio-2.jpg` e `assets/portfolio-3.jpg`: moda infantil, retratos e ar livre/estilo de vida.
 - `assets/image-1.jpg` a `assets/image-8.jpg`: imagens da galeria, das histórias e da faixa animada da página inicial.
