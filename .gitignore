@@ -1,0 +1,14 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Old template assets not used by the current pages
+Capture.PNG
+.github/
+assets/blog.jpg
+assets/client-*.jpg
+assets/logo-dark.png
+assets/logo-white.png
+assets/service.jpg

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Moda infantil, retratos e sessões ao ar livre num portefólio infantil acompanhado pelos pais." data-i18n-attr="content" data-i18n="meta.portfolio" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title data-i18n="title.portfolio">Portefólio | Pequenas aventuras</title>
+  </head>
+  <body>
+    <header class="header header--page">
+      <nav aria-label="Navegação principal" data-i18n-attr="aria-label" data-i18n="nav.aria">
+        <div class="nav__header">
+          <a class="nav__wordmark" href="pequenas-aventuras.html" data-i18n="brand">Pequenas aventuras</a>
+          <div class="nav__controls">
+            <div class="language-switch" role="group" aria-label="Escolher idioma" data-i18n-attr="aria-label" data-i18n="language.label">
+              <button type="button" class="language-switch__button is-active" data-lang="pt-PT" aria-pressed="true" title="Português" data-i18n-attr="title" data-i18n="language.pt">PT</button>
+              <button type="button" class="language-switch__button" data-lang="en" aria-pressed="false" title="Inglês" data-i18n-attr="title" data-i18n="language.en">EN</button>
+              <button type="button" class="language-switch__button" data-lang="es" aria-pressed="false" title="Espanhol" data-i18n-attr="title" data-i18n="language.es">ES</button>
+            </div>
+            <button class="nav__menu__btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links" data-i18n-attr="aria-label" data-i18n="nav.open"><i class="ri-menu-line" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html" data-i18n="nav.home">Início</a></li>
+          <li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li>
+          <li><a href="portfolio.html" aria-current="page" data-i18n="nav.portfolio">Portefólio</a></li>
+          <li class="nav__logo"><a href="pequenas-aventuras.html" data-i18n="nav.adventures">Pequenas aventuras</a></li>
+          <li><a href="galeria.html" data-i18n="nav.gallery">Galeria</a></li>
+          <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          <li class="nav__language"><div class="language-switch" role="group" aria-label="Escolher idioma" data-i18n-attr="aria-label" data-i18n="language.label">
+            <button type="button" class="language-switch__button is-active" data-lang="pt-PT" aria-pressed="true" title="Português" data-i18n-attr="title" data-i18n="language.pt">PT</button><button type="button" class="language-switch__button" data-lang="en" aria-pressed="false" title="Inglês" data-i18n-attr="title" data-i18n="language.en">EN</button><button type="button" class="language-switch__button" data-lang="es" aria-pressed="false" title="Espanhol" data-i18n-attr="title" data-i18n="language.es">ES</button>
+          </div></li>
+        </ul>
+      </nav>
+      <div class="hero page-hero">
+        <p class="hero__eyebrow" data-i18n="portfolio.pageEyebrow">Trabalhos e sessões</p>
+        <h1 data-i18n="portfolio.pageTitle">O meu portefólio</h1>
+        <p class="hero__description" data-i18n="portfolio.pageDescription">Looks, retratos e sessões ao ar livre, sempre com a minha família por perto.</p>
+      </div>
+    </header>
+    <main>
+      <section class="section__container portfolio__container">
+        <p class="section__eyebrow" data-i18n="portfolio.eyebrow">Um pouco de tudo</p>
+        <h2 class="section__header" data-i18n="portfolio.title">Trabalhos em destaque</h2>
+        <p class="section__description" data-i18n="portfolio.intro">Uma seleção de looks, retratos e projetos fotográficos. As imagens são placeholders: substitui os ficheiros indicados pelos teus.</p>
+        <div class="portfolio__grid">
+          <a class="portfolio__card" href="galeria.html" aria-label="Ver moda infantil" data-i18n-attr="aria-label" data-i18n="portfolio.fashion.aria">
+            <!-- Substituir portfolio-1.jpg por uma fotografia de moda infantil; ajustar object-position se necessário. -->
+            <img src="assets/portfolio-1.jpg" alt="Moda infantil" data-i18n-attr="alt" data-i18n="portfolio.fashion.alt" />
+            <div class="portfolio__content"><h3 data-i18n="portfolio.fashion.title">Moda infantil</h3><span data-i18n="portfolio.fashion.text">Looks e combinações de que gosto</span></div>
+          </a>
+          <a class="portfolio__card" href="galeria.html" aria-label="Ver retratos" data-i18n-attr="aria-label" data-i18n="portfolio.portraits.aria">
+            <!-- Substituir portfolio-2.jpg por um retrato; ajustar object-position para manter o rosto visível. -->
+            <img src="assets/portfolio-2.jpg" alt="Retrato infantil" data-i18n-attr="alt" data-i18n="portfolio.portraits.alt" />
+            <div class="portfolio__content"><h3 data-i18n="portfolio.portraits.title">Retratos</h3><span data-i18n="portfolio.portraits.text">Expressões naturais e sorrisos</span></div>
+          </a>
+          <a class="portfolio__card" href="galeria.html" aria-label="Ver fotografias ao ar livre" data-i18n-attr="aria-label" data-i18n="portfolio.outdoors.aria">
+            <!-- Substituir portfolio-3.jpg por uma fotografia de ar livre e estilo de vida. -->
+            <img src="assets/portfolio-3.jpg" alt="Aventuras ao ar livre" data-i18n-attr="alt" data-i18n="portfolio.outdoors.alt" />
+            <div class="portfolio__content"><h3 data-i18n="portfolio.outdoors.title">Ar livre e estilo de vida</h3><span data-i18n="portfolio.outdoors.text">Passeios, luz natural e descoberta</span></div>
+          </a>
+        </div>
+      </section>
+      <section class="profile"><div class="section__container profile__container">
+        <p class="section__eyebrow" data-i18n="portfolio.familyEyebrow">Com acompanhamento</p>
+        <h2 class="section__header" data-i18n="portfolio.familyTitle">Sessões pensadas para crianças</h2>
+        <p class="section__description" data-i18n="portfolio.familyText">Cada sessão é planeada e acompanhada pelos meus pais, com pausas, brincadeira e respeito pelo meu ritmo. Para convites ou projetos, fala com eles através da página de contacto.</p>
+      </div></section>
+      <section class="section__container gallery__container">
+        <div class="gallery__btn"><a class="btn" href="galeria.html" data-i18n="portfolio.galleryButton">Ver todas as fotografias</a></div>
+      </section>
+    </main>
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col footer__brand"><a class="footer__wordmark" href="pequenas-aventuras.html" data-i18n="brand">Pequenas aventuras</a><p data-i18n="footer.note">Um portefólio infantil, partilhado com carinho e sempre acompanhado pela família.</p></div>
+        <div class="footer__col"><h2 data-i18n="footer.links">Explorar</h2><ul class="footer__links">
+          <li><a href="index.html" data-i18n="nav.home">Início</a></li><li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li><li><a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a></li><li><a href="pequenas-aventuras.html" data-i18n="nav.adventures">Pequenas aventuras</a></li><li><a href="galeria.html" data-i18n="nav.gallery">Galeria</a></li><li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+        </ul></div>
+        <div class="footer__col footer__contact"><h2 data-i18n="footer.contact">Contacto dos pais</h2><p data-i18n="footer.contactNote">Convites e parcerias são tratados exclusivamente pelos pais.</p><a href="contacto.html#contact-form" data-i18n="contact.button">Contactar os meus pais</a></div>
+      </div>
+      <div class="footer__bar" data-i18n="footer.copyright">© 2026 Pequenas aventuras. Todos os direitos reservados.</div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Passeios, brincadeiras, momentos do dia a dia e bastidores de um portefólio infantil acompanhado pelos pais." data-i18n-attr="content" data-i18n="meta.adventures" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <title data-i18n="title.adventures">Pequenas aventuras | Portefólio infantil</title>
+  </head>
+  <body>
+    <header class="header header--page">
+      <nav aria-label="Navegação principal" data-i18n-attr="aria-label" data-i18n="nav.aria">
+        <div class="nav__header">
+          <a class="nav__wordmark" href="pequenas-aventuras.html" data-i18n="brand">Pequenas aventuras</a>
+          <div class="nav__controls">
+            <div class="language-switch" role="group" aria-label="Escolher idioma" data-i18n-attr="aria-label" data-i18n="language.label">
+              <button type="button" class="language-switch__button is-active" data-lang="pt-PT" aria-pressed="true" title="Português" data-i18n-attr="title" data-i18n="language.pt">PT</button>
+              <button type="button" class="language-switch__button" data-lang="en" aria-pressed="false" title="Inglês" data-i18n-attr="title" data-i18n="language.en">EN</button>
+              <button type="button" class="language-switch__button" data-lang="es" aria-pressed="false" title="Espanhol" data-i18n-attr="title" data-i18n="language.es">ES</button>
+            </div>
+            <button class="nav__menu__btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links" data-i18n-attr="aria-label" data-i18n="nav.open"><i class="ri-menu-line" aria-hidden="true"></i></button>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="index.html" data-i18n="nav.home">Início</a></li>
+          <li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li>
+          <li><a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a></li>
+          <li class="nav__logo"><a href="pequenas-aventuras.html" aria-current="page" data-i18n="nav.adventures">Pequenas aventuras</a></li>
+          <li><a href="galeria.html" data-i18n="nav.gallery">Galeria</a></li>
+          <li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+          <li class="nav__language"><div class="language-switch" role="group" aria-label="Escolher idioma" data-i18n-attr="aria-label" data-i18n="language.label">
+            <button type="button" class="language-switch__button is-active" data-lang="pt-PT" aria-pressed="true" title="Português" data-i18n-attr="title" data-i18n="language.pt">PT</button><button type="button" class="language-switch__button" data-lang="en" aria-pressed="false" title="Inglês" data-i18n-attr="title" data-i18n="language.en">EN</button><button type="button" class="language-switch__button" data-lang="es" aria-pressed="false" title="Espanhol" data-i18n-attr="title" data-i18n="language.es">ES</button>
+          </div></li>
+        </ul>
+      </nav>
+      <div class="hero page-hero">
+        <p class="hero__eyebrow" data-i18n="adventures.pageEyebrow">O meu dia a dia</p>
+        <h1 data-i18n="adventures.pageTitle">Pequenas aventuras</h1>
+        <p class="hero__description" data-i18n="adventures.pageDescription">Passeios, brincadeiras e histórias simples que se transformam em boas memórias.</p>
+      </div>
+    </header>
+    <main>
+      <section class="section__container stories__container">
+        <p class="section__eyebrow" data-i18n="adventures.eyebrow">Histórias em imagens</p>
+        <h2 class="section__header" data-i18n="adventures.title">Dias cheios de descobertas</h2>
+        <div class="stories__grid">
+          <article class="story-card">
+            <!-- Substituir image-1.jpg por uma fotografia espontânea do dia a dia. -->
+            <img src="assets/image-1.jpg" alt="Retrato ao ar livre" data-i18n-attr="alt" data-i18n="gallery.alt1" />
+            <div class="story-card__content"><p class="story-card__label" data-i18n="adventures.dailyLabel">Dia a dia</p><h3 data-i18n="adventures.dailyTitle">Um dia normal, uma história nova</h3><p data-i18n="adventures.dailyText">Às vezes, as melhores fotografias aparecem no meio de uma brincadeira ou de uma conversa engraçada.</p></div>
+          </article>
+          <article class="story-card">
+            <!-- Substituir image-4.jpg por uma fotografia de passeio ou descoberta ao ar livre. -->
+            <img src="assets/image-4.jpg" alt="A explorar a natureza" data-i18n-attr="alt" data-i18n="gallery.alt4" />
+            <div class="story-card__content"><p class="story-card__label" data-i18n="adventures.outingLabel">Passeios</p><h3 data-i18n="adventures.outingTitle">Lá fora há sempre mais para ver</h3><p data-i18n="adventures.outingText">Um caminho diferente, folhas no chão e tempo para explorar ao meu ritmo, sempre com a família.</p></div>
+          </article>
+          <article class="story-card">
+            <!-- Substituir image-2.jpg por uma fotografia de brincadeira. -->
+            <img src="assets/image-2.jpg" alt="Um momento divertido" data-i18n-attr="alt" data-i18n="gallery.alt2" />
+            <div class="story-card__content"><p class="story-card__label" data-i18n="adventures.playLabel">Brincadeiras</p><h3 data-i18n="adventures.playTitle">A brincar é que a fotografia acontece</h3><p data-i18n="adventures.playText">Gosto de inventar jogos, rir muito e esquecer por momentos que há uma câmara por perto.</p></div>
+          </article>
+          <article class="story-card">
+            <!-- Substituir image-5.jpg por um momento descontraído dos bastidores. -->
+            <img src="assets/image-5.jpg" alt="Um retrato espontâneo" data-i18n-attr="alt" data-i18n="gallery.alt5" />
+            <div class="story-card__content"><p class="story-card__label" data-i18n="adventures.behindLabel">Bastidores</p><h3 data-i18n="adventures.behindTitle">Pausas, gargalhadas e preparação</h3><p data-i18n="adventures.behindText">Antes e depois de cada sessão há sempre momentos divertidos que também merecem ficar guardados.</p></div>
+          </article>
+        </div>
+      </section>
+      <section class="profile"><div class="section__container profile__container">
+        <p class="section__eyebrow" data-i18n="adventures.familyEyebrow">Em família</p>
+        <h2 class="section__header" data-i18n="adventures.familyTitle">As melhores histórias são partilhadas</h2>
+        <p class="section__description" data-i18n="adventures.familyText">Estes momentos são vividos e fotografados com o acompanhamento dos meus pais. A brincadeira e o meu bem-estar vêm sempre antes da fotografia.</p>
+      </div></section>
+    </main>
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col footer__brand"><a class="footer__wordmark" href="pequenas-aventuras.html" data-i18n="brand">Pequenas aventuras</a><p data-i18n="footer.note">Um portefólio infantil, partilhado com carinho e sempre acompanhado pela família.</p></div>
+        <div class="footer__col"><h2 data-i18n="footer.links">Explorar</h2><ul class="footer__links">
+          <li><a href="index.html" data-i18n="nav.home">Início</a></li><li><a href="sobre-mim.html" data-i18n="nav.about">Sobre mim</a></li><li><a href="portfolio.html" data-i18n="nav.portfolio">Portefólio</a></li><li><a href="pequenas-aventuras.html" data-i18n="nav.adventures">Pequenas aventuras</a></li><li><a href="galeria.html" data-i18n="nav.gallery">Galeria</a></li><li><a href="contacto.html" data-i18n="nav.contact">Contacto</a></li>
+        </ul></div>
+        <div class="footer__col footer__contact"><h2 data-i18n="footer.contact">Contacto dos pais</h2><p data-i18n="footer.contactNote">Convites e parcerias são tratados exclusivamente pelos pais.</p><a href="contacto.html#contact-form" data-i18n="contact.button">Contactar os meus pais</a></div>
+      </div>
+      <div class="footer__bar" data-i18n="footer.copyright">© 2026 Pequenas aventuras. Todos os direitos reservados.</div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
